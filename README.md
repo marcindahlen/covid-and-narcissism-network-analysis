@@ -22,7 +22,7 @@ The following is being calculated/plotted:
 
 The Cohen's d values - the difference between two means divided by a standard deviation for the data, are calculated given below formula:<br>
 d = (x̄₁ - x̄₂) / s, where s is [pooled variance](https://en.wikipedia.org/wiki/Pooled_variance):<br>
-$$s = \sqrt{\frac{(n_1 - 1)s^2_1 + (n_2 - 1)s^2_2}{n_1 + n_2 - 2}}$$
+s = sqrt[((n₁ - 1)s₁² + (n₂ - 1)s₂²) / (n₁ + n₂ - 2)]
 <br>
 and where s² = (1/(n - 1)) * Σ(xᵢ - x̄)²
 <br>
